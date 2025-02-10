@@ -1,6 +1,6 @@
 PROG    = pipex
 
-SRCS    = src/pipex.c src/pipex_utils.c
+SRCS    = src/pipex.c src/executer.c
 OBJS    = ${SRCS:.c=.o}
 
 HEADER  = -Isrc -Ilibft
